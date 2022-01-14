@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter e-mail"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/rdb_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rdb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+        <RadioButton
+            android:id="@+id/rdb_famale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="famale"/>
+
+        <RadioButton
+            android:id="@+id/rdb_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I do not disclose my gender"/>
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/chk_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to terms and conditions"/>
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Main"
+        android:textSize="24dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_Move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move on next ACtivity"/>
+
+</LinearLayout>

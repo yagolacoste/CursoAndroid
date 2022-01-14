@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556449317549",
+    "project_id": "udemy-android-test-arg",
+    "storage_bucket": "udemy-android-test-arg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556449317549:android:eb18e2bb81dca5b354bc24",
+        "android_client_info": {
+          "package_name": "com.cursoandroid11.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556449317549-5lhekcjhbs186j6bkv1oj9bk3s3ue7gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB46e3CA45zC5xYY5j0uPECczs_VovEFCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556449317549-5lhekcjhbs186j6bkv1oj9bk3s3ue7gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
